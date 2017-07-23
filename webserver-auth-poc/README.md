@@ -3,6 +3,8 @@
 
 This is a proof of concept application that demonstrates how one can use cookies to authorize requests for static files hosted by NginX. This is done to enable the use of better access control over these static files.
 
+![Sample Network Diagram](./images/static_server_auth.png)
+
 # To run:
 * To run in foreground: `> docker-compose up`
 * To run in background: `> docker-compose up -d`
