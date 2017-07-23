@@ -1,0 +1,12 @@
+version: '2'
+services:
+   
+    statics:
+        image: "nginx:alpine"
+        volumes:
+            - ./statics/:/usr/share/nginx/html
+    
+    static_proxy:
+        build: ./app-container
+        ports:
+            - "5000:5000"
