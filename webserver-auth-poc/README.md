@@ -1,7 +1,7 @@
-# App Code as Proxy
+# Cookies to Authorize Static Files
 ---
 
-This is a proof of concept application that demonstrates how one can use a web application to proxy requests to a back-end static file server. This is done to enable the use of better access control over these static files.
+This is a proof of concept application that demonstrates how one can use cookies to authorize requests for static files hosted by NginX. This is done to enable the use of better access control over these static files.
 
 # To run:
 * To run in foreground: `> docker-compose up`
