@@ -1,6 +1,6 @@
 # Static File Authorization Examples
 
-This repository contains several different examples of how to control access to staticfiles. All of these examples are build into docker containers for portability.
+This repository contains several different examples of how to control access to staticfiles. All of these examples are built in docker containers for portability.
 
 All applications contained within this repository will look identical. The only differences are in how the static files are protected. 
 
